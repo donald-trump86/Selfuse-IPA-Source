@@ -1,0 +1,35 @@
+[
+  {
+    "name": "PiliPlus",
+    "bundleIdentifier": "moe.bgg.piliplus",
+    "developerName": "bggRGjQaUbCoE",
+    "repo": "bggRGjQaUbCoE/PiliPlus",
+    "assetPattern": ".*_ios_.*\\.ipa$",
+    "iconURL": "https://raw.githubusercontent.com/bggRGjQaUbCoE/PiliPlus/main/android/app/src/main/ic_launcher-playstore.png",
+    "tintColor": "FB7299",
+    "subtitle": "哔哩哔哩第三方客户端",
+    "localizedDescription": "哔哩哔哩第三方开源 iOS 客户端 (PiliPlus)，界面清爽，支持多种自定配置。"
+  },
+  {
+    "name": "PiliNara",
+    "bundleIdentifier": "moe.starfallan.pilinara",
+    "developerName": "Starfallan",
+    "repo": "Starfallan/PiliNara",
+    "assetPattern": ".*_ios_.*\\.ipa$",
+    "iconURL": "https://raw.githubusercontent.com/Starfallan/PiliNara/main/android/app/src/main/ic_launcher-playstore.png",
+    "tintColor": "FA7298",
+    "subtitle": "PiliPlus 改良版",
+    "localizedDescription": "PiliPlus 的第三方 Fork 版本 (PiliNara)，增加了一些功能与自用体验改进。"
+  },
+  {
+    "name": "uYouEnhanced",
+    "bundleIdentifier": "com.google.ios.youtube",
+    "developerName": "arichornlover",
+    "repo": "Timothywag/uYouEnhanced",
+    "assetPattern": ".*\\.ipa$",
+    "iconURL": "https://raw.githubusercontent.com/Timothywag/uYouEnhanced/main/Localizations/uYouPlus.bundle/AppIcons/uYouPlus.png",
+    "tintColor": "FF0000",
+    "subtitle": "YouTube 增强修改版",
+    "localizedDescription": "YouTube iOS 修改版，集成去广告、后台播放、画中画 (PiP) 与媒体下载功能。"
+  }
+]
