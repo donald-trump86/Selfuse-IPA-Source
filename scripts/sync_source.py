@@ -36,7 +36,22 @@ def get_headers() -> Dict[str, str]:
         headers["Authorization"] = f"Bearer {token}"
     return headers
 
-def clean_version(tag_name: str) -> str:
+def extract_app_version(tag_name: str, asset_name: str, custom_pattern: Optional[str] = None) -> str:
+    if custom_pattern:
+        match = re.search(custom_pattern, tag_name) or re.search(custom_pattern, asset_name)
+        if match:
+            return match.group(1) if match.groups() else match.group(0)
+
+    # SideStore matches version against CFBundleShortVersionString in the IPA Info.plist.
+    # Match standard major.minor or major.minor.patch version from asset filename or tag
+    match_asset = re.search(r"(\d+\.\d+(?:\.\d+)?)", asset_name)
+    if match_asset:
+        return match_asset.group(1)
+
+    match_tag = re.search(r"(\d+\.\d+(?:\.\d+)?)", tag_name)
+    if match_tag:
+        return match_tag.group(1)
+
     cleaned = tag_name.strip()
     cleaned = re.sub(r"^[vV]", "", cleaned)
     cleaned = re.sub(r"[\(\)]", "", cleaned)
@@ -45,7 +60,6 @@ def clean_version(tag_name: str) -> str:
 def sanitize_text(text: str) -> str:
     if not text:
         return ""
-    # Remove emoji characters for formal output
     emoji_pattern = re.compile(r"[\U00010000-\U0010FFFF\u2600-\u26FF\u2700-\u27BF]", flags=re.UNICODE)
     cleaned = emoji_pattern.sub("", text)
     cleaned = cleaned.strip()
@@ -78,6 +92,7 @@ def process_app(app_conf: Dict[str, Any]) -> Optional[Dict[str, Any]]:
     name = app_conf["name"]
     repo = app_conf["repo"]
     pattern_str = app_conf.get("assetPattern", r".*\.ipa$")
+    custom_ver_pattern = app_conf.get("versionPattern")
     logger.info("Synchronizing app: %s (Repo: %s)", name, repo)
 
     try:
@@ -99,7 +114,7 @@ def process_app(app_conf: Dict[str, Any]) -> Optional[Dict[str, Any]]:
                     target_release = rel
                     target_asset = asset
 
-                ver_str = clean_version(rel.get("tag_name", "1.0.0"))
+                ver_str = extract_app_version(rel.get("tag_name", "1.0.0"), asset.get("name", ""), custom_ver_pattern)
                 ver_date = rel.get("published_at") or rel.get("created_at") or ""
                 ver_desc = sanitize_text(rel.get("body") or "")
 
@@ -115,7 +130,11 @@ def process_app(app_conf: Dict[str, Any]) -> Optional[Dict[str, Any]]:
             logger.warning("No matching .ipa asset found for %s (%s).", name, repo)
             return None
 
-        latest_version = clean_version(target_release.get("tag_name", "1.0.0"))
+        latest_version = extract_app_version(
+            target_release.get("tag_name", "1.0.0"),
+            target_asset.get("name", ""),
+            custom_ver_pattern
+        )
         latest_date = target_release.get("published_at") or target_release.get("created_at") or ""
         latest_desc = sanitize_text(target_release.get("body") or "")
 
