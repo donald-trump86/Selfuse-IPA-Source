@@ -68,7 +68,7 @@ def sanitize_text(text: str) -> str:
     return cleaned
 
 def fetch_releases(repo: str) -> List[Dict[str, Any]]:
-    url = f"https://api.github.com/repos/{repo}/releases?per_page=10"
+    url = f"https://api.github.com/repos/{repo}/releases?per_page=15"
     resp = requests.get(url, headers=get_headers(), timeout=30)
     if resp.status_code == 200:
         return resp.json()
@@ -103,6 +103,8 @@ def process_app(app_conf: Dict[str, Any]) -> Optional[Dict[str, Any]]:
 
         target_release = None
         target_asset = None
+        latest_version = ""
+        seen_versions = set()
         valid_versions = []
 
         for rel in releases:
@@ -110,11 +112,18 @@ def process_app(app_conf: Dict[str, Any]) -> Optional[Dict[str, Any]]:
                 continue
             asset = find_matching_asset(rel, pattern_str)
             if asset:
+                ver_str = extract_app_version(rel.get("tag_name", "1.0.0"), asset.get("name", ""), custom_ver_pattern)
+                
                 if not target_release:
                     target_release = rel
                     target_asset = asset
+                    latest_version = ver_str
 
-                ver_str = extract_app_version(rel.get("tag_name", "1.0.0"), asset.get("name", ""), custom_ver_pattern)
+                # Deduplicate version entries to prevent SideStore duplicate version errors
+                if ver_str in seen_versions:
+                    continue
+                seen_versions.add(ver_str)
+
                 ver_date = rel.get("published_at") or rel.get("created_at") or ""
                 ver_desc = sanitize_text(rel.get("body") or "")
 
@@ -130,11 +139,6 @@ def process_app(app_conf: Dict[str, Any]) -> Optional[Dict[str, Any]]:
             logger.warning("No matching .ipa asset found for %s (%s).", name, repo)
             return None
 
-        latest_version = extract_app_version(
-            target_release.get("tag_name", "1.0.0"),
-            target_asset.get("name", ""),
-            custom_ver_pattern
-        )
         latest_date = target_release.get("published_at") or target_release.get("created_at") or ""
         latest_desc = sanitize_text(target_release.get("body") or "")
 
