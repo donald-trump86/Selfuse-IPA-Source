@@ -13,20 +13,20 @@
       "developerName": "bggRGjQaUbCoE",
       "subtitle": "哔哩哔哩第三方客户端",
       "version": "2.1.2",
-      "versionDate": "2026-08-26T03:10:08Z",
-      "versionDescription": "支持加载 `bcc` 格式字幕 #2705\r\n播放器启用自动重连 #2446 by @AlinJiang\r\n安卓支持允许三方 APP 访问私有存储，默认关\r\n支持复制设备信息 #2688 by @My-Responsitories\r\n调整部分设置选项界面 #2683 by @My-Responsitories\r\n\r\n修复 #2697 by @My-Responsitories\r\n修复 #2637 #2638 #2647 #2671 #2692",
-      "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/2.1.2.1/PiliPlus_ios_2.1.2%2B5255.ipa",
+      "versionDate": "2026-08-29T13:58:46Z",
+      "versionDescription": "回退 #2446\r\n显示视频分 P 序号 #2717\r\n弹幕应用 APP 字体 #2712\r\n支持导入字体 co-by @My-Responsitories\r\n其他调整 #2734 #2767 by @My-Responsitories\r\n\r\n修复 #2716 #2731\r\n修复部分安卓设备无法显示登录验证码 #2642 #2713 by @My-Responsitories",
+      "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/2.1.2.2/PiliPlus_ios_2.1.2%2B5277.ipa",
       "localizedDescription": "哔哩哔哩第三方开源 iOS 客户端 (PiliPlus)，界面清爽，支持多种自定配置。",
       "iconURL": "https://raw.githubusercontent.com/bggRGjQaUbCoE/PiliPlus/main/android/app/src/main/ic_launcher-playstore.png",
       "tintColor": "FB7299",
-      "size": 23937413,
+      "size": 23936202,
       "versions": [
         {
           "version": "2.1.2",
-          "date": "2026-08-26T03:10:08Z",
-          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/2.1.2.1/PiliPlus_ios_2.1.2%2B5255.ipa",
-          "size": 23937413,
-          "localizedDescription": "支持加载 `bcc` 格式字幕 #2705\r\n播放器启用自动重连 #2446 by @AlinJiang\r\n安卓支持允许三方 APP 访问私有存储，默认关\r\n支持复制设备信息 #2688 by @My-Responsitories\r\n调整部分设置选项界面 #2683 by @My-Responsitories\r\n\r\n修复 #2697 by @My-Responsitories\r\n修复 #2637 #2638 #2647 #2671 #2692"
+          "date": "2026-08-29T13:58:46Z",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/2.1.2.2/PiliPlus_ios_2.1.2%2B5277.ipa",
+          "size": 23936202,
+          "localizedDescription": "回退 #2446\r\n显示视频分 P 序号 #2717\r\n弹幕应用 APP 字体 #2712\r\n支持导入字体 co-by @My-Responsitories\r\n其他调整 #2734 #2767 by @My-Responsitories\r\n\r\n修复 #2716 #2731\r\n修复部分安卓设备无法显示登录验证码 #2642 #2713 by @My-Responsitories"
         },
         {
           "version": "2.1.1",
@@ -63,15 +63,22 @@
       "bundleIdentifier": "com.example.pilinara",
       "developerName": "Starfallan",
       "subtitle": "PiliPlus 改良版",
-      "version": "2.1.0",
-      "versionDate": "2026-08-14T10:55:12Z",
-      "versionDescription": "## 2.1.0.2 -[Snezhnaya] - 2026-08-14\r\n\r\n又是好久不见，正式版终于还是出来了，本版把重心放在播放体验上：应用内小窗迎来大改版，底层架构重构（增加收起/展开过渡动画、记住位置、支持双指捏合/滚轮缩放、直播控制栏），倍速锁定升级为“上滑锁定”，弹幕合并更快也更可控，网络不好时可以自定义视频 CDN 、按区域挑节点并测速。同时修复了一批小窗、画质、字幕和键盘控制相关问题。\r\n\r\n### Added\r\n- **自定义视频 CDN 域名与区域节点选择**：视频设置新增 CDN 节点选择器，可自定义视频 CDN 域名、按区域挑选节点，并支持测速对比延迟。\r\n- **应用内小窗增强**：新增收起/展开过渡动画；记住拖动位置与缩放档位；支持双指捏合（移动端）和滚轮（桌面端）连续缩放；双指缩放支持旋转画面，松手自动吸附直角；直播小窗新增底部控制栏（播放/暂停/刷新），直播卡死时可直接在小窗内自救。\r\n- **倍速上滑锁定**：长按倍速时上滑越线即可锁定，无需一直按着；锁定阈值改为按播放器实际高度自适应，降低误触发。\r\n- **合并弹幕字号随数量放大新增总开关**：关闭后合并弹幕与普通弹幕字号一致。\r\n- **专栏支持投币**，图标与视频投币保持一致。\r\n- 全屏锁定按钮可设置显示在右侧，方便单手操作。（#230）\r\n- “我的”界面历史/稍后再看卡片进度支持显示总时长。\r\n- 桌面端视频/音频分享对话框也显示“分享视频”选项，点击复制标题+UP主+链接。（#227）\r\n- **平板端键盘控制**：ESC 全平台返回生效，外接键盘可直接返回上一页；视频页支持方向键/PgUp/PgDn 滚动，长按连续滚动。\r\n- （上游改动）评论/动态新增表情选择。\r\n- （上游改动）文本换行时支持显示省略号。\r\n- （上游改动）直播超级聊天卡片显示开始时间。\r\n-    ...",
-      "downloadURL": "https://github.com/Starfallan/PiliNara/releases/download/2.1.0.2/PiliNara_ios_2.1.0%2B5673.ipa",
+      "version": "2.1.2",
+      "versionDate": "2026-08-29T16:02:51Z",
+      "versionDescription": "## 2.1.2 -[Nihilux] - 2026-08-30\r\n\r\n9月前发布，赢！\r\n本版的重头戏是**自定义字体系统重构**：支持一次导入多套字体、识别 ttc 字体集合，字体名直接取自文件内部名称，选字更直观。同时给桌面端补齐了**系统媒体控制**：Windows 接入 SMTC、Linux 接入 MPRIS(感觉可能不是很完善，等上游那个PR吧)，在系统媒体面板里就能切歌切集。直播间可以佩戴粉丝勋章了，备注昵称也支持替换显示。另外修复了一批暗色主题、音频焦点、小窗适配和字体迁移问题。\r\n\r\n### Added\r\n- **自定义字体系统重构**：导入池支持多套字体同时管理，按内容哈希自动去重，重复导入同一文件不再占用空间；字体名读取字体文件内部名称（支持中文名/字重区分），非字体文件自动回落文件名。\r\n- **弹幕字体并入统一字体池**：弹幕字体与应用字体共用一套导入池，不再维护独立目录；移除正在使用的字体时立即回落，不会留下指向已删字体的设置。\r\n- **Windows 系统媒体控制（SMTC）**：播放视频/音频时接入系统媒体传输控制，支持播放/暂停、上一集/下一集、快进/快退，封面本地加载优先。（#251）\r\n- **Linux 系统媒体控制（MPRIS）**：接入 audio_service_mpris，支持进度拖动、随机/循环/倍速，桌面环境自动拉取封面。\r\n- **直播间粉丝勋章佩戴**：输入面板新增粉丝勋章按钮，MD3E 风格底部面板展示勋章列表，支持佩戴/取消佩戴，自动分页加载。（#266）\r\n- **备注替换昵称**：新增全局开关，开启后备注首行替换原昵称显示，覆盖视频卡片、评论区、动态、关注列表、播放页等 13 处名字位；外发内容、持久化数据、他人内容均保留原昵称。\r\n- **楼中楼评论默认排序独立设置**：二级评论可单独设置排序方式，未设置时...",
+      "downloadURL": "https://github.com/Starfallan/PiliNara/releases/download/2.1.2/PiliNara_ios_2.1.2%2B5790.ipa",
       "localizedDescription": "PiliPlus 的第三方 Fork 版本 (PiliNara)，增加了一些功能与自用体验改进。",
       "iconURL": "https://raw.githubusercontent.com/Starfallan/PiliNara/main/android/app/src/main/ic_launcher-playstore.png",
       "tintColor": "FA7298",
-      "size": 25218627,
+      "size": 25424932,
       "versions": [
+        {
+          "version": "2.1.2",
+          "date": "2026-08-29T16:02:51Z",
+          "downloadURL": "https://github.com/Starfallan/PiliNara/releases/download/2.1.2/PiliNara_ios_2.1.2%2B5790.ipa",
+          "size": 25424932,
+          "localizedDescription": "## 2.1.2 -[Nihilux] - 2026-08-30\r\n\r\n9月前发布，赢！\r\n本版的重头戏是**自定义字体系统重构**：支持一次导入多套字体、识别 ttc 字体集合，字体名直接取自文件内部名称，选字更直观。同时给桌面端补齐了**系统媒体控制**：Windows 接入 SMTC、Linux 接入 MPRIS(感觉可能不是很完善，等上游那个PR吧)，在系统媒体面板里就能切歌切集。直播间可以佩戴粉丝勋章了，备注昵称也支持替换显示。另外修复了一批暗色主题、音频焦点、小窗适配和字体迁移问题。\r\n\r\n### Added\r\n- **自定义字体系统重构**：导入池支持多套字体同时管理，按内容哈希自动去重，重复导入同一文件不再占用空间；字体名读取字体文件内部名称（支持中文名/字重区分），非字体文件自动回落文件名。\r\n- **弹幕字体并入统一字体池**：弹幕字体与应用字体共用一套导入池，不再维护独立目录；移除正在使用的字体时立即回落，不会留下指向已删字体的设置。\r\n- **Windows 系统媒体控制（SMTC）**：播放视频/音频时接入系统媒体传输控制，支持播放/暂停、上一集/下一集、快进/快退，封面本地加载优先。（#251）\r\n- **Linux 系统媒体控制（MPRIS）**：接入 audio_service_mpris，支持进度拖动、随机/循环/倍速，桌面环境自动拉取封面。\r\n- **直播间粉丝勋章佩戴**：输入面板新增粉丝勋章按钮，MD3E 风格底部面板展示勋章列表，支持佩戴/取消佩戴，自动分页加载。（#266）\r\n- **备注替换昵称**：新增全局开关，开启后备注首行替换原昵称显示，覆盖视频卡片、评论区、动态、关注列表、播放页等 13 处名字位；外发内容、持久化数据、他人内容均保留原昵称。\r\n- **楼中楼评论默认排序独立设置**：二级评论可单独设置排序方式，未设置时..."
+        },
         {
           "version": "2.1.0",
           "date": "2026-08-14T10:55:12Z",
@@ -99,13 +106,6 @@
           "downloadURL": "https://github.com/Starfallan/PiliNara/releases/download/2.0.7.4-Hyacinthia/PiliNara_ios_2.0.7%2B5292.ipa",
           "size": 24871730,
           "localizedDescription": "## 2.0.7.4 -[Hyacinthia] - 2026-05-26\r\n\r\n这个版本优化了高负载环境下的弹幕合并速度，优化了目前的AI总结系统逻辑，缓存视频支持导出，优化了通知栏的控制逻辑，支持上下集切换（耳机切换也支持了），暂时修复了官方API问题导致的动态显示为undefined的问题等，具体更新可以看下方详细日志\r\n\r\n### Added\r\n- 分段进度条开关状态持久化，跟随临时播放器设置保存。（#123）\r\n- 图片长按/右键菜单添加「复制图片」功能。\r\n- AI 对话新增无字幕柔性降级策略：无字幕时禁用模板分析按钮并 toast 引导，注入警告占位提示，System Prompt 新增无字幕兜底规则。\r\n- 下载页支持导出离线缓存视频到公共 Download 目录，支持单个导出和批量多选，带字节级进度追踪，智能差异检测跳过未变更文件。（仅 Android）\r\n- 系统媒体控制（通知栏/锁屏）动态显示上一集/下一集按钮，根据当前是否为多P/合集/播放列表自动调整布局。\r\n- 动态详情页获取全文后回调更新列表数据，临时解决动态显示\"undefined\"的问题。（#117）\r\n- 支持自动侧边栏切换，支持配置宽度阈值。（#124）\r\n\r\n### Changed\r\n- 弹幕合并性能优化，在复杂环境下，性能提升大概在20%～30%\r\n- （上游改动）播放器手势和亮度/音量调节优化。（#2134）\r\n- （上游改动）投币功能重构优化\r\n- （上游改动）播放器新增自定义倾斜角度阈值设置。（#2140）\r\n- （上游改动）发布动态/评论/弹幕增加发布节流防抖。（#2152）\r\n- （上游改动）UP 主空间头部信息优化，页面切换过渡动画优化。\r\n\r\n### Fixed\r\n- 修复全屏切换画质相关问题：返回视频页后全屏加载错误视频（didPopNext 未重注册回调）、切换画质..."
-        },
-        {
-          "version": "2.0.6",
-          "date": "2026-05-02T02:56:12Z",
-          "downloadURL": "https://github.com/Starfallan/PiliNara/releases/download/2.0.6.1-Cyrene/PiliNara_ios_2.0.6%2B5121.ipa",
-          "size": 25231618,
-          "localizedDescription": "## 2.0.6.1-[Cyrene] - 2026-05-02\r\n\r\n祝大家五一劳动节快乐！\r\n\r\n### Added\r\n- UP 主空间页和关注列表新增自定义备注功能，支持在空间页三点菜单或备注区点击编辑，数据持久化本地存储，清空保存则删除备注。\r\n- 过滤列表编辑体验增强：关键词列表支持就地点击编辑（失焦或回车保存），用户屏蔽列表改为可长按复制的可选文本，操作更直观。\r\n- （上游改动）直播全屏模式下的 SuperChat 展示宽度支持自定义调节。（#1910）\r\n\r\n### Changed\r\n- （上游改动）SuperChat 结束时间计算逻辑优化，显示更准确。\r\n\r\n### Fixed\r\n- 修复 iOS 从小窗（PiP）返回全屏后播放器意外暂停的问题（surface 脱离为异步操作，将状态恢复延迟至下一帧执行，并正确保留小窗期间的播放意图）。\r\n- 修复 Android 重启应用后应用内音量未恢复至上次设置值的问题。\r\n- （上游改动）修复 Android 端手动调低亮度后亮度被异常重置的问题。\r\n- （社区贡献）修复播放器横竖屏方向切换相关问题。（#1935）"
         }
       ]
     },
