@@ -13,20 +13,20 @@
       "developerName": "bggRGjQaUbCoE",
       "subtitle": "哔哩哔哩第三方客户端",
       "version": "2.1.6",
-      "versionDate": "2026-10-05T12:36:03Z",
-      "versionDescription": "支持离线合集归档\r\n支持离线/更新空降片段\r\n添加视频过滤作用域详情\r\n支持切换`番剧`/`剧集`季度\r\n支持横屏时在侧栏显示`番剧`列表\r\n直播聊天显示`主播`标识 #3156\r\n直播聊天只显示点亮的牌子 #3155\r\n用户未直播时在主页显示入口按钮 #3033\r\n从视频切到直播不影响视频倍速 #3112\r\n支持转发同时评论 #3135\r\n@ 用户时置顶被`回复`/`转发`用户 #3123\r\n视频控制栏控件溢出处理 #3085\r\n添加英文文档 #3131 by @maoawa\r\n桌面端画中画记忆窗口位置大小 #2997\r\n收藏夹已满且未收藏时禁用选中 #3113\r\niOS 支持系统 PIP #3160 by @AotianNeo\r\n黑名单屏蔽扩展本地屏蔽，增加过滤搜索、评论\r\n支持按 `Enter` 保存截图 #3101 by @403bug\r\n支持从媒体会话向前/后跳转音视频 #2964 co-by @silverwolf-lv9999\r\n\r\n修复弹幕速度 #3136\r\n修复收藏夹视频跳转 #3137\r\n修复下滑关闭侧栏主页 #3160\r\n修复触控板浏览图片 https://github.com/bggRGjQaUbCoE/PiliPlus/issues/183#issuecomment-5976539299\r\n修复 Windows 26H2 任务栏不在底部时，退出全屏出现窗口偏移 #2901",
-      "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/2.1.6/PiliPlus_ios_2.1.6%2B5453.ipa",
+      "versionDate": "2026-10-10T07:10:30Z",
+      "versionDescription": "专栏支持跳转至评论 #3213\r\n其他调整 #3208 by @My-Responsitories\r\n\r\n修复 bug\r\n修复搜索风控验证 #3106\r\n修复窗口大小变化时图片闪烁 #2685\r\n修复安卓视频暂停时画面裁切问题 #3034 by @Hdy08",
+      "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/2.1.6.1/PiliPlus_ios_2.1.6%2B5471.ipa",
       "localizedDescription": "哔哩哔哩第三方开源 iOS 客户端 (PiliPlus)，界面清爽，支持多种自定配置。",
       "iconURL": "https://raw.githubusercontent.com/bggRGjQaUbCoE/PiliPlus/main/android/app/src/main/ic_launcher-playstore.png",
       "tintColor": "FB7299",
-      "size": 24083344,
+      "size": 24353584,
       "versions": [
         {
           "version": "2.1.6",
-          "date": "2026-10-05T12:36:03Z",
-          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/2.1.6/PiliPlus_ios_2.1.6%2B5453.ipa",
-          "size": 24083344,
-          "localizedDescription": "支持离线合集归档\r\n支持离线/更新空降片段\r\n添加视频过滤作用域详情\r\n支持切换`番剧`/`剧集`季度\r\n支持横屏时在侧栏显示`番剧`列表\r\n直播聊天显示`主播`标识 #3156\r\n直播聊天只显示点亮的牌子 #3155\r\n用户未直播时在主页显示入口按钮 #3033\r\n从视频切到直播不影响视频倍速 #3112\r\n支持转发同时评论 #3135\r\n@ 用户时置顶被`回复`/`转发`用户 #3123\r\n视频控制栏控件溢出处理 #3085\r\n添加英文文档 #3131 by @maoawa\r\n桌面端画中画记忆窗口位置大小 #2997\r\n收藏夹已满且未收藏时禁用选中 #3113\r\niOS 支持系统 PIP #3160 by @AotianNeo\r\n黑名单屏蔽扩展本地屏蔽，增加过滤搜索、评论\r\n支持按 `Enter` 保存截图 #3101 by @403bug\r\n支持从媒体会话向前/后跳转音视频 #2964 co-by @silverwolf-lv9999\r\n\r\n修复弹幕速度 #3136\r\n修复收藏夹视频跳转 #3137\r\n修复下滑关闭侧栏主页 #3160\r\n修复触控板浏览图片 https://github.com/bggRGjQaUbCoE/PiliPlus/issues/183#issuecomment-5976539299\r\n修复 Windows 26H2 任务栏不在底部时，退出全屏出现窗口偏移 #2901"
+          "date": "2026-10-10T07:10:30Z",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/2.1.6.1/PiliPlus_ios_2.1.6%2B5471.ipa",
+          "size": 24353584,
+          "localizedDescription": "专栏支持跳转至评论 #3213\r\n其他调整 #3208 by @My-Responsitories\r\n\r\n修复 bug\r\n修复搜索风控验证 #3106\r\n修复窗口大小变化时图片闪烁 #2685\r\n修复安卓视频暂停时画面裁切问题 #3034 by @Hdy08"
         },
         {
           "version": "2.1.5",
