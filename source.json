@@ -6,6 +6,132 @@
   "description": "Auto-updated SideStore source maintained by donald-trump86.",
   "iconURL": "https://raw.githubusercontent.com/SideStore/SideStore/main/SideStore/Assets.xcassets/AppIcon.appiconset/Icon-60%403x.png",
   "website": "https://github.com/donald-trump86/Selfuse-IPA-Source",
-  "apps": [],
+  "apps": [
+    {
+      "name": "PiliPlus",
+      "bundleIdentifier": "com.example.piliplus",
+      "developerName": "bggRGjQaUbCoE",
+      "subtitle": "哔哩哔哩第三方客户端",
+      "version": "2.1.6",
+      "versionDate": "2026-10-10T13:07:12Z",
+      "versionDescription": "专栏支持跳转至评论 #3213\r\n其他调整 #3208 by @My-Responsitories\r\n\r\n修复 bug\r\n修复搜索风控验证 #3106\r\n修复窗口大小变化时图片闪烁 #2685\r\n修复安卓视频暂停时画面裁切问题 #3034 by @Hdy08",
+      "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/2.1.6.2/PiliPlus_ios_2.1.6%2B5472.ipa",
+      "localizedDescription": "哔哩哔哩第三方开源 iOS 客户端 (PiliPlus)，界面清爽，支持多种自定配置。",
+      "iconURL": "https://raw.githubusercontent.com/bggRGjQaUbCoE/PiliPlus/main/android/app/src/main/ic_launcher-playstore.png",
+      "tintColor": "FB7299",
+      "size": 24353925,
+      "versions": [
+        {
+          "version": "2.1.6",
+          "date": "2026-10-10T13:07:12Z",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/2.1.6.2/PiliPlus_ios_2.1.6%2B5472.ipa",
+          "size": 24353925,
+          "localizedDescription": "专栏支持跳转至评论 #3213\r\n其他调整 #3208 by @My-Responsitories\r\n\r\n修复 bug\r\n修复搜索风控验证 #3106\r\n修复窗口大小变化时图片闪烁 #2685\r\n修复安卓视频暂停时画面裁切问题 #3034 by @Hdy08"
+        },
+        {
+          "version": "2.1.5",
+          "date": "2026-09-25T04:14:09Z",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/2.1.5/PiliPlus_ios_2.1.5%2B5410.ipa",
+          "size": 23999265,
+          "localizedDescription": "支持自定义主题颜色 #3009\r\n综合搜索用户过滤黑名单 #3043\r\n可复制文本工具栏默认添加站内搜索按钮 #2984\r\n支持保存 SC 为图片 co-by @My-Responsitories\r\n支持 Windows deeplink #2673 by @HChaZZY\r\n支持 Linux deeplink #2931 by @Tobiichi-Origuchi\r\n降低桌面端 PIP 大小限制 #2735 #2982 by @Aclguh\r\n桌面端支持保存全部图片 #2920 #2983 by @My-Responsitories\r\nLinux 支持内嵌 WebView #3014 #3016 by @Tobiichi-Origuchi co-by @My-Responsitories\r\n其他调整 #2962 #3025 #3027 by @My-Responsitories\r\n\r\n修复分 P 视频链接 #2963\r\n修复滑动快进/退震动失效 #2966\r\n修复小窗模式下画面被 SC 遮挡 #3005\r\n修复无痕模式出现直播入场提示 #2971\r\n修复多次点击截图保存退出视频页面 #3017\r\n修复更新媒体通知、后台连播 #2761 #2943\r\n修复 iOS 静音模式下偶发视频无声修复 #3039 @sounfury\r\n修复部分安卓无法登录 #2930 #3063 by @Tobiichi-Origuchi\r\n修复 macOS 切换全屏控件无法点击 #2917 #2976 by @milk2715093695"
+        },
+        {
+          "version": "2.1.4",
+          "date": "2026-09-13T06:15:54Z",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/2.1.4/PiliPlus_ios_2.1.4%2B5348.ipa",
+          "size": 23983183,
+          "localizedDescription": "增加综合搜索\r\n收藏页支持切换页码为倒序\r\n重构定位视频加载前页视频逻辑\r\n支持分开查看动态`赞`与`转发`详情\r\n收藏夹`复制`/`移动`视频时保持顺序 #2850\r\n其他调整 #2889 by @My-Responsitories\r\n播放器优化 #2873 by @My-Responsitories\r\n支持点击动态/评论表情显示 Tooltip，默认关 #2918\r\n\r\n修复 #2892 #2899 #2909 #2949 #2950 #2956\r\n修复 #2882 by @Tobiichi-Origuchi"
+        },
+        {
+          "version": "2.1.3",
+          "date": "2026-09-05T04:43:21Z",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/2.1.3.1/PiliPlus_ios_2.1.3%2B5315.ipa",
+          "size": 23970852,
+          "localizedDescription": "限制直播聊天缓存条目\r\n音频播放页配置音量均衡 #2598 by @Eazed-Yu\r\n限制离线弹幕下载并发 #2800 by @KIDA-MNESIA\r\n关注分组支持切换排序方式 #2772 co-by @defghy\r\nLinux 支持 WebView #2843 by @Tobiichi-Origuchi\r\n支持显示定时关闭剩余时间 #2461 co-by @SXP-Simon\r\n更新直播弹幕屏蔽页面，实现直播弹幕屏蔽 #2821 by @Starfallan\r\niOS 设置 `ITSAppUsesNonExemptEncryption` 属性 #2789 by @maoawa\r\n评论输入框增加 LaTeX 公式转 Unicode 开关 #2792 by @milk2715093695\r\n修复部分视频画质切换问题 #2810 #2828 by @TomorrowX6 co-by @My-Responsitories\r\n\r\n优化字体自重 #2787 by @My-Responsitories\r\n优化/修复账号逻辑 #2794 #2797 by @KIDA-MNESIA #2817 by @My-Responsitories\r\n\r\n修复 #2709 #2816 #2836 #2837"
+        },
+        {
+          "version": "2.1.2",
+          "date": "2026-08-30T04:20:00Z",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/2.1.2.3/PiliPlus_ios_2.1.2%2B5281.ipa",
+          "size": 23936722,
+          "localizedDescription": "修复 bug"
+        }
+      ]
+    },
+    {
+      "name": "PiliNara",
+      "bundleIdentifier": "com.example.pilinara",
+      "developerName": "Starfallan",
+      "subtitle": "PiliPlus 改良版",
+      "version": "2.1.6",
+      "versionDate": "2026-10-17T06:14:26Z",
+      "versionDescription": "小更新：\r\n将离线缓存模块完全重构，跟随上游的相关改动，但是新增了手动文件夹和相关功能\r\n修复了部分番剧因为存在智能修复画质导致播放失败的问题\r\n同步了上游的最新修改，如新增评论的直接跳转等，详细可自行查看上游的更新日志\r\n\r\n**Full Changelog**: https://github.com/Starfallan/PiliNara/compare/2.1.6...2.6.1.1",
+      "downloadURL": "https://github.com/Starfallan/PiliNara/releases/download/2.6.1.1/PiliNara_ios_2.1.6%2B6077.ipa",
+      "localizedDescription": "PiliPlus 的第三方 Fork 版本 (PiliNara)，增加了一些功能与自用体验改进。",
+      "iconURL": "https://raw.githubusercontent.com/Starfallan/PiliNara/main/android/app/src/main/ic_launcher-playstore.png",
+      "tintColor": "FA7298",
+      "size": 25967643,
+      "versions": [
+        {
+          "version": "2.1.6",
+          "date": "2026-10-17T06:14:26Z",
+          "downloadURL": "https://github.com/Starfallan/PiliNara/releases/download/2.6.1.1/PiliNara_ios_2.1.6%2B6077.ipa",
+          "size": 25967643,
+          "localizedDescription": "小更新：\r\n将离线缓存模块完全重构，跟随上游的相关改动，但是新增了手动文件夹和相关功能\r\n修复了部分番剧因为存在智能修复画质导致播放失败的问题\r\n同步了上游的最新修改，如新增评论的直接跳转等，详细可自行查看上游的更新日志\r\n\r\n**Full Changelog**: https://github.com/Starfallan/PiliNara/compare/2.1.6...2.6.1.1"
+        },
+        {
+          "version": "2.1.5",
+          "date": "2026-09-26T08:43:42Z",
+          "downloadURL": "https://github.com/Starfallan/PiliNara/releases/download/2.1.5.1/PiliNara_ios_2.1.5%2B5966.ipa",
+          "size": 25583151,
+          "localizedDescription": "## 2.1.5.1 -[Pearl] - 2026-09-26\r\n迟到的祝大家中秋节快乐！\r\n这版改动挺杂的。弹幕加了个「人像防挡」，应用内画中画也做了个手动入口。目前AI 对话支持显示思考过程、可调思考强度，设置页和对话界面都按 M3风格 重做了一遍，且目前往下滑时上下两条控制栏会自己收起来。播放器这边视频参数面板多了音频延迟，全屏顶栏能看当前分 P 的弹幕数。上游这轮更新了综合搜索、醒目留言导出图片、Linux 内嵌网页、Linux/Windows 的链接唤起等。\r\n\r\n### Added\r\n- **智能防挡**：弹幕自动避开画面中的人物，依赖 B 站下发的视频蒙版（部分视频支持）。播放设置新增「智能防挡」开关，默认关闭。（实现源自上游贡献者 @StarsWhere 的 PR 2948，本 fork 重做了实现方式，分拆了一部分到canvas_danmaku中）\r\n- **应用内画中画手动入口**：视频页与直播间的三点菜单新增「应用内画中画」，不受设置开关约束，全屏状态下也能直接进入。（#308）\r\n- **音频延迟**：播放器三点菜单的视频参数面板在原五项画面参数基础上新增音频延迟（±1000 ms，步进 10 ms），对应 mpv 的 `--audio-delay`，用于补偿蓝牙耳机等设备造成的音画不同步。是否跨视频保留跟随「播放器设置仅对当前生效」开关。（#293）\r\n- **分P弹幕数**：全屏顶栏可显示当前分 P 的弹幕数，多 P 视频下不再只能看到整个稿件的总数。新增独立开关「弹幕数」（默认关，与「观看人数」同排、以空格分隔），统计与高能进度条共用同一次请求。（#305）\r\n- **AI 对话思考过程**：展示模型的推理内容，可在设置里调思考强度（none/minimal/low/medium/high/xhigh/max）；思考块限高时框内滚动、贴底时跟..."
+        },
+        {
+          "version": "2.1.3",
+          "date": "2026-09-10T00:38:02Z",
+          "downloadURL": "https://github.com/Starfallan/PiliNara/releases/download/2.1.3/PiliNara_ios_2.1.3%2B5859.ipa",
+          "size": 25504479,
+          "localizedDescription": "## 2.1.3 -[Remielle] - 2026-09-10\r\n\r\n尝试实现了**后台自动只听音频**——进入后台 10 秒自动断开视频流只保留声音，回到前台自动恢复画面，这个功能是实验性的，有需要的可以打开试用一下。视频播放器新增**画面参数调节面板**（亮度、对比度、饱和度、伽马、色相），AI 对话补全了 Markdown 渲染全面修复。评论输入框支持 LaTeX 转 Unicode，定时关机终于会报时了。Side 项目重构了直播弹幕屏蔽的实现，删掉了大量冗余代码。同时修复了一批弹窗字体、小窗手势、看完人数残留等问题。\r\n\r\n### Added\r\n- **后台自动只听音频**：进入后台或息屏 10 秒后自动切开视频轨道只保留音频，回到前台恢复画面。设有独立开关（默认关，父开关是后台播放），手动标记为纯音频的视频不触发，PiP 开启时保持画面不切入只听，回\r\n- **视频画面参数调节面板**：播放器三点菜单中新增画面参数入口，支持亮度、对比度、饱和度、伽马、色相五项调节，可实时预览效果，参数持久化保存。（#273）\r\n- AI 视频助手小屏紧凑布局：手表/小折叠屏等窄高设备自动压缩间距与控件密度，保持可读性。（#284）\r\n- （上游改动）评论输入框新增 LaTeX 转 Unicode：输入 LaTeX 公式自动渲染为 Unicode 字符，支持矩阵、分式、根号等常见语法。（#2792）\r\n- （上游改动）定时关机显示剩余时间：视频页顶部、音频页面和直播全屏头部均显示定时关机倒计时，菜单项也同步展示剩余时间。（#2461）\r\n- （上游改动）收藏夹支持翻页排序：收藏夹内可按收藏时间升/降序排列，方便管理大量收藏。\r\n- （上游改动）分组关注列表支持排序：关注分组列表可选择按\"最近关注\"或\"最常访问\"排序。（#2772）\r\n- （上游改动）Linux 端接入桌面 We..."
+        },
+        {
+          "version": "2.1.2",
+          "date": "2026-08-29T16:02:51Z",
+          "downloadURL": "https://github.com/Starfallan/PiliNara/releases/download/2.1.2/PiliNara_ios_2.1.2%2B5790.ipa",
+          "size": 25424932,
+          "localizedDescription": "## 2.1.2 -[Nihilux] - 2026-08-30\r\n\r\n9月前发布，赢！\r\n本版的重头戏是**自定义字体系统重构**：支持一次导入多套字体、识别 ttc 字体集合，字体名直接取自文件内部名称，选字更直观。同时给桌面端补齐了**系统媒体控制**：Windows 接入 SMTC、Linux 接入 MPRIS(感觉可能不是很完善，等上游那个PR吧)，在系统媒体面板里就能切歌切集。直播间可以佩戴粉丝勋章了，备注昵称也支持替换显示。另外修复了一批暗色主题、音频焦点、小窗适配和字体迁移问题。\r\n\r\n### Added\r\n- **自定义字体系统重构**：导入池支持多套字体同时管理，按内容哈希自动去重，重复导入同一文件不再占用空间；字体名读取字体文件内部名称（支持中文名/字重区分），非字体文件自动回落文件名。\r\n- **弹幕字体并入统一字体池**：弹幕字体与应用字体共用一套导入池，不再维护独立目录；移除正在使用的字体时立即回落，不会留下指向已删字体的设置。\r\n- **Windows 系统媒体控制（SMTC）**：播放视频/音频时接入系统媒体传输控制，支持播放/暂停、上一集/下一集、快进/快退，封面本地加载优先。（#251）\r\n- **Linux 系统媒体控制（MPRIS）**：接入 audio_service_mpris，支持进度拖动、随机/循环/倍速，桌面环境自动拉取封面。\r\n- **直播间粉丝勋章佩戴**：输入面板新增粉丝勋章按钮，MD3E 风格底部面板展示勋章列表，支持佩戴/取消佩戴，自动分页加载。（#266）\r\n- **备注替换昵称**：新增全局开关，开启后备注首行替换原昵称显示，覆盖视频卡片、评论区、动态、关注列表、播放页等 13 处名字位；外发内容、持久化数据、他人内容均保留原昵称。\r\n- **楼中楼评论默认排序独立设置**：二级评论可单独设置排序方式，未设置时..."
+        },
+        {
+          "version": "2.1.0",
+          "date": "2026-08-14T10:55:12Z",
+          "downloadURL": "https://github.com/Starfallan/PiliNara/releases/download/2.1.0.2/PiliNara_ios_2.1.0%2B5673.ipa",
+          "size": 25218627,
+          "localizedDescription": "## 2.1.0.2 -[Snezhnaya] - 2026-08-14\r\n\r\n又是好久不见，正式版终于还是出来了，本版把重心放在播放体验上：应用内小窗迎来大改版，底层架构重构（增加收起/展开过渡动画、记住位置、支持双指捏合/滚轮缩放、直播控制栏），倍速锁定升级为“上滑锁定”，弹幕合并更快也更可控，网络不好时可以自定义视频 CDN 、按区域挑节点并测速。同时修复了一批小窗、画质、字幕和键盘控制相关问题。\r\n\r\n### Added\r\n- **自定义视频 CDN 域名与区域节点选择**：视频设置新增 CDN 节点选择器，可自定义视频 CDN 域名、按区域挑选节点，并支持测速对比延迟。\r\n- **应用内小窗增强**：新增收起/展开过渡动画；记住拖动位置与缩放档位；支持双指捏合（移动端）和滚轮（桌面端）连续缩放；双指缩放支持旋转画面，松手自动吸附直角；直播小窗新增底部控制栏（播放/暂停/刷新），直播卡死时可直接在小窗内自救。\r\n- **倍速上滑锁定**：长按倍速时上滑越线即可锁定，无需一直按着；锁定阈值改为按播放器实际高度自适应，降低误触发。\r\n- **合并弹幕字号随数量放大新增总开关**：关闭后合并弹幕与普通弹幕字号一致。\r\n- **专栏支持投币**，图标与视频投币保持一致。\r\n- 全屏锁定按钮可设置显示在右侧，方便单手操作。（#230）\r\n- “我的”界面历史/稍后再看卡片进度支持显示总时长。\r\n- 桌面端视频/音频分享对话框也显示“分享视频”选项，点击复制标题+UP主+链接。（#227）\r\n- **平板端键盘控制**：ESC 全平台返回生效，外接键盘可直接返回上一页；视频页支持方向键/PgUp/PgDn 滚动，长按连续滚动。\r\n- （上游改动）评论/动态新增表情选择。\r\n- （上游改动）文本换行时支持显示省略号。\r\n- （上游改动）直播超级聊天卡片显示开始时间。\r\n-    ..."
+        }
+      ]
+    },
+    {
+      "name": "YouTube Mod",
+      "bundleIdentifier": "com.google.ios.youtube",
+      "developerName": "arichornlover",
+      "subtitle": "YouTube 增强修改版",
+      "version": "20.44.2",
+      "versionDate": "2026-02-25T07:10:36Z",
+      "versionDescription": "",
+      "downloadURL": "https://github.com/Timothywag/uYouEnhanced/releases/download/v20.44.2-3.0.4-%281%29/uYouEnhanced_20.44.2-3.0.4.ipa",
+      "localizedDescription": "YouTube iOS 修改版 (uYouEnhanced)，集成去广告、后台播放、画中画 (PiP) 与媒体下载功能。",
+      "iconURL": "https://raw.githubusercontent.com/Timothywag/uYouEnhanced/main/Localizations/uYouPlus.bundle/AppIcons/uYouPlus.png",
+      "tintColor": "FF0000",
+      "size": 134673065,
+      "versions": [
+        {
+          "version": "20.44.2",
+          "date": "2026-02-25T07:10:36Z",
+          "downloadURL": "https://github.com/Timothywag/uYouEnhanced/releases/download/v20.44.2-3.0.4-%281%29/uYouEnhanced_20.44.2-3.0.4.ipa",
+          "size": 134673065,
+          "localizedDescription": ""
+        }
+      ]
+    }
+  ],
   "news": []
 }
