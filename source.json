@@ -12,15 +12,22 @@
       "bundleIdentifier": "com.example.piliplus",
       "developerName": "bggRGjQaUbCoE",
       "subtitle": "哔哩哔哩第三方客户端",
-      "version": "2.1.6",
-      "versionDate": "2026-10-10T13:07:12Z",
-      "versionDescription": "专栏支持跳转至评论 #3213\r\n其他调整 #3208 by @My-Responsitories\r\n\r\n修复 bug\r\n修复搜索风控验证 #3106\r\n修复窗口大小变化时图片闪烁 #2685\r\n修复安卓视频暂停时画面裁切问题 #3034 by @Hdy08",
-      "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/2.1.6.2/PiliPlus_ios_2.1.6%2B5472.ipa",
+      "version": "2.2.0",
+      "versionDate": "2026-11-01T07:33:43Z",
+      "versionDescription": "设置选项调整\r\n支持切换`番剧`/`剧集` PV\r\npgc/pugv api 迁移至 ogv\r\n`我的订阅`详情默认倒序显示\r\n相关推荐过滤屏蔽黑名单 #3276\r\n用户主页支持显示粉丝勋章 #3202\r\n键盘方向键支持长按持续回退 #3379\r\n同步空降助手新片段类型`惊吓` #3368\r\n桌面端进度条支持鼠标悬停预览视频画面\r\n增加桌面端视频底栏时长字体大小 #3372\r\n增加滚轮调节音量开关 #3340 by @Hdy08\r\n侧边栏支持隐藏文字 #3343 by @illumiat\r\n支持`,`/`.`键逐档切换倍速 #3294 by @lzblack\r\n重构 Linux 内嵌 WebView #3423 by @moluopro\r\nLinux 构建依赖调整 #3277 by @Tobiichi-Origuchi\r\nLinux 支持多媒体控制 #3355 by @Tobiichi-Origuchi\r\nLinux 支持检测网络类型 #3164 #3374 by @Tobiichi-Origuchi\r\n`我的`页面支持显示`观看记录`、`稍后再看`、`我的订阅`\r\n支持自定义`buvid` #3253 #3349 co-by @My-Responsitories\r\n缓存面板支持选择音质，修复音质选取问题 #3309 co-by @azkbzxf\r\n支持导出/导入所有数据到压缩包 #3248 by @nlsdt #3313 by @My-Responsitories\r\n其他调整 #3349 by @My-Responsitories\r\n构建脚本不再改写用户的全局 Git 配置 #3360 by @AmCh-Q\r\n\r\n适配更多专栏类型\r\n支持显示 UP 专栏文集 #3316\r\n\r\n首页直播置顶分类标签 #3363\r\n增加全屏 SC 是否显示/不透明度/缩放设置\r\n直播与视频的...",
+      "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/2.2.0/PiliPlus_ios_2.2.0%2B5580.ipa",
       "localizedDescription": "哔哩哔哩第三方开源 iOS 客户端 (PiliPlus)，界面清爽，支持多种自定配置。",
       "iconURL": "https://raw.githubusercontent.com/bggRGjQaUbCoE/PiliPlus/main/android/app/src/main/ic_launcher-playstore.png",
       "tintColor": "FB7299",
-      "size": 24353925,
+      "size": 24921912,
       "versions": [
+        {
+          "version": "2.2.0",
+          "date": "2026-11-01T07:33:43Z",
+          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/2.2.0/PiliPlus_ios_2.2.0%2B5580.ipa",
+          "size": 24921912,
+          "localizedDescription": "设置选项调整\r\n支持切换`番剧`/`剧集` PV\r\npgc/pugv api 迁移至 ogv\r\n`我的订阅`详情默认倒序显示\r\n相关推荐过滤屏蔽黑名单 #3276\r\n用户主页支持显示粉丝勋章 #3202\r\n键盘方向键支持长按持续回退 #3379\r\n同步空降助手新片段类型`惊吓` #3368\r\n桌面端进度条支持鼠标悬停预览视频画面\r\n增加桌面端视频底栏时长字体大小 #3372\r\n增加滚轮调节音量开关 #3340 by @Hdy08\r\n侧边栏支持隐藏文字 #3343 by @illumiat\r\n支持`,`/`.`键逐档切换倍速 #3294 by @lzblack\r\n重构 Linux 内嵌 WebView #3423 by @moluopro\r\nLinux 构建依赖调整 #3277 by @Tobiichi-Origuchi\r\nLinux 支持多媒体控制 #3355 by @Tobiichi-Origuchi\r\nLinux 支持检测网络类型 #3164 #3374 by @Tobiichi-Origuchi\r\n`我的`页面支持显示`观看记录`、`稍后再看`、`我的订阅`\r\n支持自定义`buvid` #3253 #3349 co-by @My-Responsitories\r\n缓存面板支持选择音质，修复音质选取问题 #3309 co-by @azkbzxf\r\n支持导出/导入所有数据到压缩包 #3248 by @nlsdt #3313 by @My-Responsitories\r\n其他调整 #3349 by @My-Responsitories\r\n构建脚本不再改写用户的全局 Git 配置 #3360 by @AmCh-Q\r\n\r\n适配更多专栏类型\r\n支持显示 UP 专栏文集 #3316\r\n\r\n首页直播置顶分类标签 #3363\r\n增加全屏 SC 是否显示/不透明度/缩放设置\r\n直播与视频的..."
+        },
         {
           "version": "2.1.6",
           "date": "2026-10-10T13:07:12Z",
@@ -48,13 +55,6 @@
           "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/2.1.3.1/PiliPlus_ios_2.1.3%2B5315.ipa",
           "size": 23970852,
           "localizedDescription": "限制直播聊天缓存条目\r\n音频播放页配置音量均衡 #2598 by @Eazed-Yu\r\n限制离线弹幕下载并发 #2800 by @KIDA-MNESIA\r\n关注分组支持切换排序方式 #2772 co-by @defghy\r\nLinux 支持 WebView #2843 by @Tobiichi-Origuchi\r\n支持显示定时关闭剩余时间 #2461 co-by @SXP-Simon\r\n更新直播弹幕屏蔽页面，实现直播弹幕屏蔽 #2821 by @Starfallan\r\niOS 设置 `ITSAppUsesNonExemptEncryption` 属性 #2789 by @maoawa\r\n评论输入框增加 LaTeX 公式转 Unicode 开关 #2792 by @milk2715093695\r\n修复部分视频画质切换问题 #2810 #2828 by @TomorrowX6 co-by @My-Responsitories\r\n\r\n优化字体自重 #2787 by @My-Responsitories\r\n优化/修复账号逻辑 #2794 #2797 by @KIDA-MNESIA #2817 by @My-Responsitories\r\n\r\n修复 #2709 #2816 #2836 #2837"
-        },
-        {
-          "version": "2.1.2",
-          "date": "2026-08-30T04:20:00Z",
-          "downloadURL": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/2.1.2.3/PiliPlus_ios_2.1.2%2B5281.ipa",
-          "size": 23936722,
-          "localizedDescription": "修复 bug"
         }
       ]
     },
